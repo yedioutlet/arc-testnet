@@ -1,0 +1,6 @@
+await kit.send({
+  from: { adapter, chain: "Arc_Testnet" },
+  to: "RECIPIENT_ADDRESS",
+  amount: "1.00",
+  token: "USDC",
+});
