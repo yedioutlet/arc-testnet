@@ -1,0 +1,6 @@
+await kit.bridge({
+  from: { adapter, chain: "Ethereum_Sepolia" },
+  to: { adapter, chain: "Arc_Testnet" },
+  amount: "1.00",
+  token: "USDC",
+});
