@@ -1,0 +1,7 @@
+mkdir crosschain-transfer && cd crosschain-transfer
+npm init -y
+npm pkg set type=module
+npm pkg set scripts.start="tsx --env-file=.env index.ts"
+
+npm install @circle-fin/bridge-kit @circle-fin/adapter-circle-wallets
+npm install --save-dev tsx typescript @types/node
