@@ -1,0 +1,9 @@
+Create a .env file in the project directory:
+CIRCLE_API_KEY=YOUR_API_KEY
+CIRCLE_ENTITY_SECRET=YOUR_ENTITY_SECRET
+EVM_WALLET_ADDRESS=YOUR_EVM_WALLET_ADDRESS
+SOLANA_WALLET_ADDRESS=YOUR_SOLANA_WALLET_ADDRESS
+The npm run start command loads these variables from .env using Node.js native env-file support.
+Step 2. Set up your wallets
+In this step, you create developer-controlled wallets on Arc Testnet and the source chain, then fund them for the bridge flow. If you already have funded wallets on Arc Testnet and your source chain, skip to Step 3.
+​
