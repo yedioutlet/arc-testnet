@@ -1,0 +1,14 @@
+Create a tsconfig.json file:
+npx tsc --init
+Then, update the tsconfig.json file:
+cat <<'EOF' > tsconfig.json
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "types": ["node"]
+  }
+}
+EOF
